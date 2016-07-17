@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<!--
+    Licensed to the Apache Software Foundation (ASF) under one
+    or more contributor license agreements.  See the NOTICE file
+    distributed with this work for additional information
+    regarding copyright ownership.  The ASF licenses this file
+    to you under the Apache License, Version 2.0 (the
+    "License"); you may not use this file except in compliance
+    with the License.  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing,
+    software distributed under the License is distributed on an
+    "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+     KIND, either express or implied.  See the License for the
+    specific language governing permissions and limitations
+    under the License.
+-->
+<html>
+    <head>
+        <!--
+        Customize this policy to fit your own app's needs. For more guidance, see:
+            https://github.com/apache/cordova-plugin-whitelist/blob/master/README.md#content-security-policy
+        Some notes:
+            * gap: is required only on iOS (when using UIWebView) and is needed for JS->native communication
+            * https://ssl.gstatic.com is required only on Android and is needed for TalkBack to function properly
+            * Disables use of inline scripts in order to mitigate risk of XSS vulnerabilities. To change this:
+                * Enable inline JS: add 'unsafe-inline' to default-src
+        -->
+
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+
+        <link rel="stylesheet" type="text/css" href="../plugins/jquery/jquery.mobile-1.4.5.min.css">
+        <link rel="stylesheet" type="text/css" href="../plugins/jquery/jquery.mobile.theme-1.4.5.min.css">
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+        <script type="text/javascript"  src="../plugins/jquery/jquery-1.11.3.js"></script>
+        <script type="text/javascript" src="../plugins/jquery/jquery.mobile-1.4.5.min.js"></script>
+        <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+
+
+        <title>Hello World</title>
+    </head>
+    <body>
+        <!-- <div class="app">
+            <h1>Apache Cordova</h1>
+            <div id="deviceready" class="blink">
+                <p class="event listening">Connecting to Device</p>
+                <p class="event received">Device is Ready</p>
+            </div>
+        </div> -->
+
+
+<!-- Start Of landing page -->
+        <div data-role="page" id="landing Page">
+
+          <div data-role="main" class="ui-content">
+
+            <!--logo-->
+            <img src="img/ragandbone.png" width="250"/>
+            <h1> Garangguni</h1>
+
+
+
+            <a href="#loginpage"> next </a>
+
+          </div>
+        </div>
+
+
+<!-- End Of landing page -->
+<!-- Start Of login page -->
+
+        <div data-role="page"  id="loginpage">
+          <div data-role="header">
+            <h1>Login</h1>
+          </div>
+
+          <div data-role="main" class="ui-content">
+
+            <!--logo-->
+            <img src="img/ragandbone.png" width="250"/>
+
+<<<<<<< HEAD
+            <br>
+=======
+            <!--logo-->
+            <img></img>
+            <br>
+            <label>Username
+              <input placeholder="Username"></input>
+            </label>
+            <br>
+            <label>Password
+              <input placeholder="Password"></input>
+            </label>
+            <button class="ui-btn">Login</button>
+            <a href="#" class="ui-btn">Login with Facebook</a>
+
+            <a href=""> Sign Up </a>
+
+          </div>
+        </div>
+
+        <div data-role="page">
+          <div data-role="header">
+            <h1>Sign Up</h1>
+          </div>
+
+          <div role="main" class="ui-content">
+
+            <!--logo-->
+            <img></img>
+            <br>
+            <label>Name
+              <input placeholder="Name"></input>
+            </label>
+
+>>>>>>> 59a5ddcc2f4a5847f16e5cc5148d0d6b9d2f8aa5
+            <label>Username
+              <input placeholder="Username"/>
+            </label>
+            <br>
+            <label>Password
+              <input placeholder="Password"/>
+            </label>
+<<<<<<< HEAD
+            <button class="ui-btn">Login</button>
+            <a href="#" class="ui-btn">Login with Facebook</a>
+
+            <a href="#signuppage"> Sign Up </a>
+=======
+            <label>Email
+              <input placeholder="example@example.com"></input>
+            </label>
+            <label>Mobile
+              <input placeholder="Username"></input>
+            </label>
+
+
+            <button class="ui-btn">Update</button>
+>>>>>>> 59a5ddcc2f4a5847f16e5cc5148d0d6b9d2f8aa5
+
+          </div>
+        </div>
+
+<<<<<<< HEAD
+<!-- End Of login page -->
+=======
+
+>>>>>>> 59a5ddcc2f4a5847f16e5cc5148d0d6b9d2f8aa5
+
+<!-- Start Of Sign Up page -->
+
+        <div data-role="page" id="signuppage">
+          <div data-role="header">
+            <h1>Sign Up</h1>
+          </div>
+
+          <div data-role="main" class="ui-content">
+
+            <!--logo-->
+            <img src="img/ragandbone.png" width="250"/>
+            <br>
+            <label>Name
+              <input placeholder="Name"/>
+            </label>
+
+            <label>Username
+              <input placeholder="Username"/>
+            </label>
+            <br>
+            <label>Password
+              <input placeholder="Password"/>
+            </label>
+            <label>Email
+              <input placeholder="example@example.com"/>
+            </label>
+            <label>Mobile
+              <input placeholder="Username"/>
+            </label>
+
+
+            <button class="ui-btn">Sign Up</button>
+
+          </div>
+        </div>
+
+<!-- End Of Sign Up page -->
+
+ <!-- Start Of Home page -->
+ <!-- End Of Home page -->
+    </body>
+</html>
