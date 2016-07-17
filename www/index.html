@@ -18,8 +18,9 @@
     under the License.
 -->
 <html>
-    <head>
-        <!--
+
+<head>
+    <!--
         Customize this policy to fit your own app's needs. For more guidance, see:
             https://github.com/apache/cordova-plugin-whitelist/blob/master/README.md#content-security-policy
         Some notes:
@@ -29,25 +30,23 @@
                 * Enable inline JS: add 'unsafe-inline' to default-src
         -->
 
-        <meta name="format-detection" content="telephone=no">
-        <meta name="msapplication-tap-highlight" content="no">
-        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
 
-        <link rel="stylesheet" type="text/css" href="../plugins/jquery/jquery.mobile-1.4.5.min.css">
-        <link rel="stylesheet" type="text/css" href="../plugins/jquery/jquery.mobile.theme-1.4.5.min.css">
-        <script type="text/javascript" src="cordova.js"></script>
-        <script type="text/javascript" src="js/index.js"></script>
-        <script type="text/javascript"  src="../plugins/jquery/jquery-1.11.3.js"></script>
-        <script type="text/javascript" src="../plugins/jquery/jquery.mobile-1.4.5.min.js"></script>
-        <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
-<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="../plugins/jquery/jquery.mobile-1.4.5.min.css">
+    <link rel="stylesheet" type="text/css" href="../plugins/jquery/jquery.mobile.theme-1.4.5.min.css">
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript" src="js/jquery-1.11.3.js"></script>
+    <script type="text/javascript" src="js/jquery.mobile-1.4.5.js"></script>
 
 
+    <title>Hello World</title>
+</head>
 
-        <title>Hello World</title>
-    </head>
-    <body>
-        <!-- <div class="app">
+<body>
+    <!-- <div class="app">
             <h1>Apache Cordova</h1>
             <div id="deviceready" class="blink">
                 <p class="event listening">Connecting to Device</p>
@@ -56,144 +55,356 @@
         </div> -->
 
 
-<!-- Start Of landing page -->
-        <div data-role="page" id="landing Page">
+  <!-- Start Of landing page -->
+    <div data-role="page" id="landingpage">
 
-          <div data-role="main" class="ui-content">
+        <div data-role="main" class="ui-content">
 
             <!--logo-->
-            <img src="img/ragandbone.png" width="250"/>
+            <img src="img/ragandbone.png" width="250" />
             <h1> Garangguni</h1>
 
 
 
             <a href="#loginpage"> next </a>
 
-          </div>
         </div>
+    </div>
+    <!-- End Of landing page -->
 
-
-<!-- End Of landing page -->
 <!-- Start Of login page -->
 
-        <div data-role="page"  id="loginpage">
-          <div data-role="header">
+    <div data-role="page" id="loginpage">
+        <div data-role="header">
             <h1>Login</h1>
-          </div>
-
-          <div data-role="main" class="ui-content">
-
-            <!--logo-->
-            <img src="img/ragandbone.png" width="250"/>
-
-<<<<<<< HEAD
-            <br>
-=======
-            <!--logo-->
-            <img></img>
-            <br>
-            <label>Username
-              <input placeholder="Username"></input>
-            </label>
-            <br>
-            <label>Password
-              <input placeholder="Password"></input>
-            </label>
-            <button class="ui-btn">Login</button>
-            <a href="#" class="ui-btn">Login with Facebook</a>
-
-            <a href=""> Sign Up </a>
-
-          </div>
         </div>
 
-        <div data-role="page">
-          <div data-role="header">
-            <h1>Sign Up</h1>
-          </div>
-
-          <div role="main" class="ui-content">
+        <div data-role="main" class="ui-content">
 
             <!--logo-->
-            <img></img>
-            <br>
-            <label>Name
-              <input placeholder="Name"></input>
-            </label>
+            <img src="img/ragandbone.png" width="250" />
 
->>>>>>> 59a5ddcc2f4a5847f16e5cc5148d0d6b9d2f8aa5
+            <br>
             <label>Username
-              <input placeholder="Username"/>
+                <input placeholder="Username" />
             </label>
             <br>
             <label>Password
-              <input placeholder="Password"/>
+                <input placeholder="Password" />
             </label>
-<<<<<<< HEAD
             <button class="ui-btn">Login</button>
             <a href="#" class="ui-btn">Login with Facebook</a>
 
             <a href="#signuppage"> Sign Up </a>
-=======
-            <label>Email
-              <input placeholder="example@example.com"></input>
-            </label>
-            <label>Mobile
-              <input placeholder="Username"></input>
-            </label>
 
-
-            <button class="ui-btn">Update</button>
->>>>>>> 59a5ddcc2f4a5847f16e5cc5148d0d6b9d2f8aa5
-
-          </div>
         </div>
-
-<<<<<<< HEAD
-<!-- End Of login page -->
-=======
-
->>>>>>> 59a5ddcc2f4a5847f16e5cc5148d0d6b9d2f8aa5
+    </div>
+    <!-- End Of login page -->
 
 <!-- Start Of Sign Up page -->
 
-        <div data-role="page" id="signuppage">
-          <div data-role="header">
+    <div data-role="page" id="signuppage">
+        <div data-role="header">
             <h1>Sign Up</h1>
-          </div>
+        </div>
 
-          <div data-role="main" class="ui-content">
+        <div data-role="main" class="ui-content">
 
             <!--logo-->
-            <img src="img/ragandbone.png" width="250"/>
+            <img src="img/ragandbone.png" width="250" />
             <br>
             <label>Name
-              <input placeholder="Name"/>
+                <input placeholder="Name" />
             </label>
 
             <label>Username
-              <input placeholder="Username"/>
+                <input placeholder="Username" />
             </label>
             <br>
             <label>Password
-              <input placeholder="Password"/>
+                <input placeholder="Password" />
             </label>
             <label>Email
-              <input placeholder="example@example.com"/>
+                <input placeholder="example@example.com" />
             </label>
             <label>Mobile
-              <input placeholder="Username"/>
+                <input placeholder="Username" />
             </label>
 
 
             <button class="ui-btn">Sign Up</button>
 
+        </div>
+    </div>
+<!-- Start Of Sign Up page -->
+
+    <div data-role="page" id="listings">
+        <div data-role="header">
+            <h1>Listed Items</h1>
+            <a href="#left-panel" data-icon="bars" data-iconpos="notext" data-shadow="false" data-iconshadow="false" class="ui-icon-nodisc">Open left panel</a>
+        </div>
+        <!-- /header -->
+        <div data-role="content">
+          <div class="banner">
+          </div>
+
+          <div class="box-container">
+            <div class="box">
+              <img src="" alt="" />
+
+            </div>
+          </div>
+        </div>
+        <!-- /content -->
+        <div data-role="panel" id="left-panel">
+            <ul>
+                <li><a href="#listings">Feed</a></li>
+                <li><a>Barter</a></li>
+                <li><a>Profile</a></li>
+                <li><a href="#messages">Messages</a></li>
+                <li><a>Reviews</a></li>
+                <li> Notifications
+                    <select name="flip-1" id="flip-1" data-role="slider">
+                        <option value="off">Off</option>
+                        <option value="on">On</option>
+                    </select>
+                </li>
+                <li><a>Logout</a></li>
+
+                <li>
+            </ul>
+        </div>
+        <!-- /panel -->
+    </div>
+    <!-- End Of Sign Up Page-->
+
+<!-- Start of Message -->
+    <div data-role="page" id="messages">
+        <div data-role="header">
+            <h1>Listed Items</h1>
+            <a href="#left-panel" data-icon="bars" data-iconpos="notext" data-shadow="false" data-iconshadow="false" class="ui-icon-nodisc">Open left panel</a>
+        </div>
+        <div data-role="content">
+        </div>
+        <!-- /content -->
+    </div>
+    <!-- End of Message Page -->
+
+
+<!-- Start Of Barter Photo page - 1 -->
+        <div data-role="page"  id="barterphotopage">
+          <div data-role="header">
+          <div class="header-icons toplefticons">
+          <img src="img/ragandbone.png" width="50">
+          </div>
+
+            <h1>Take Photo</h1>
+
+          <div class="header-icons toprighticons">
+          <img src="img/ragandbone.png" width="50">
+          </div>
+          </div>
+
+          <div data-role="main" class="ui-content">
+
+			<div class="bartercamera">
+            <img src="img/ragandbone.png" width="250">
+			</div>
+
+			<div class="bartercameracontrol">
+            <a href="#cancel"> cancel </a>
+
+            <a href="#capturephoto"> Sign Up </a>
+
+            <a href="#folder"> folder </a>
+
+          </div>
+          </div>
+        </div>
+        <!-- End Of Barter Photo page - 1 -->
+
+<!-- Start Of Barter Details page - 2 -->
+
+          <div data-role="page"  id="barterdetailspage">
+          <div data-role="header">
+          <div class="header-icons toplefticons">
+          <img src="img/ragandbone.png" width="50">
+          </div>
+
+            <h1>Item Details</h1>
+
+          <div class="header-icons toprighticons">
+          <img src="img/ragandbone.png" width="50">
+          </div>
+          </div>
+
+          <div data-role="main" class="ui-content">
+
+            <!--logo-->
+            <img src="img/ragandbone.png" width="250"/>
+
+            <br>
+            <label>Title
+              <input type="text" placeholder="Title"/>
+            </label>
+            <br>
+            <label>Description
+              <textarea placeholder="Item Description"></textarea>
+            </label>
+            <br>
+            <label>Location
+              <input type="text" placeholder="Location"/>
+            </label>
+            <br>
+            <label>
+            <input type="radio" name="deliverydetails" value="Meetup" />
+ 			<img src="img/ragandbone.png" width="50">
+
+            </label>
+              <label>
+                        <input type="radio" name="deliverydetails" value="Delivery" />
+ 			<img src="img/ragandbone.png" width="50">
+            </label>
+            <br>
+
+            <a href="#" class="ui-btn">Save</a>
+
           </div>
         </div>
 
-<!-- End Of Sign Up page -->
 
- <!-- Start Of Home page -->
- <!-- End Of Home page -->
-    </body>
+        <!-- End Of Barter Details page - 2 -->
+
+ <!-- Start Of Barter Share Page - 3 -->
+         <div data-role="page" id="bartersharepage">
+
+          <div data-role="main" class="ui-content">
+          <center>
+          <!--text-->
+          <h3>Would You like to Share?</h3>
+
+            <!--logo-->
+            <img src="img/ragandbone.png" width="50"/>
+            <img src="img/ragandbone.png" width="50"/>
+            <img src="img/ragandbone.png" width="50"/>
+
+<br>
+
+            <a href="#itemlistingpage"> No Thanks!</a>
+</center>
+          </div>
+        </div>
+        <!-- End Of Barter Share Page - 3 -->
+
+        <!-- Start Of Review Listing page - 1 -->
+
+                  <div data-role="page"  id="reviewlistingspage">
+                  <div data-role="header">
+                  <div class="header-icons toplefticons">
+                  <img src="img/ragandbone.png" width="50">
+                  </div>
+
+                    <h1>Reviews</h1>
+
+                  <div class="header-icons toprighticons">
+                  <img src="img/ragandbone.png" width="50">
+                  </div>
+                  </div>
+
+                  <div data-role="main" class="ui-content">
+
+        				<div data-demo-html="true">
+        				<ul data-role="listview" data-inset="true">
+
+        					<li data-role="list-divider">Friday, October 8, 2010 <span class="ui-li-count">2</span></li>
+
+        					<li><a href="#reviewpage">
+                            <img src="img/ragandbone.png" width="50" >
+        					<h2>Username</h2>
+        					<p><strong>Item Name</strong></p>
+        					<p>Reviews</p>
+        						<p class="ui-li-aside"><strong>6:24</strong>PM
+                                <br><img src="img/ragandbone.png" width="50"></p>
+        					</a></li>
+
+        					<li><a href="#reviewpage">
+                            <img src="img/ragandbone.png" width="50" >
+        					<h2>jQuery Team</h2>
+        					<p><strong>Boston Conference Planning</strong></p>
+        					<p>In preparation for the upcoming conference in Boston, we need to start gathering a list of sponsors and <speakers class="	"></speakers></p>
+        						<p class="ui-li-aside"><strong>9:18</strong>AM
+                                <br><img src="img/ragandbone.png" width="50"></p>
+        					</a></li>
+
+        					<li data-role="list-divider">Thursday, October 7, 2010 <span class="ui-li-count">1</span></li>
+
+        					<li><a href="#reviewpage">
+        					<h2>Avery Walker</h2>
+        					<p><strong>Re: Dinner Tonight</strong></p>
+        					<p>Sure, let's plan on meeting at Highland Kitchen at 8:00 tonight. Can't wait!</p>
+        						<p class="ui-li-aside"><strong>4:48</strong>PM</p>
+        					</a></li>
+
+
+        				</ul>
+        			</div>
+
+
+
+                  </div>
+                </div>
+         <!-- End Of Review Listing page - 1 -->
+
+<!-- Start Of Review page - 2 -->
+
+                  <div data-role="page"  id="reviewpage">
+                  <div data-role="header">
+                  <div class="header-icons toplefticons">
+                  <img src="img/ragandbone.png" width="50">
+                  </div>
+
+                    <h1>Item Details</h1>
+
+                  <div class="header-icons toprighticons">
+                  <img src="img/ragandbone.png" width="50">
+                  </div>
+                  </div>
+
+                  <div data-role="main" class="ui-content">
+
+                    <!--logo-->
+                    <center>
+                    <img src="img/ragandbone.png" width="250"/>
+         			</center>
+                    <br>
+                    <label>Review Item
+                      <input type="text" value="Ader's Iphone"/>
+                    </label>
+                    <br>
+                    <label>Description
+                      <textarea placeholder="Item Description"></textarea>
+                    </label>
+                    <br>
+
+                    <div class="shareicons">
+                    <center>
+                    <img src="img/ragandbone.png" width="50">
+                    <img src="img/ragandbone.png" width="50">
+                    <img src="img/ragandbone.png" width="50">
+                    </center>
+                    </div>
+
+
+
+                    <a href="#" class="ui-btn">Send</a>
+
+                  </div>
+                </div>
+
+         <!-- End Of Review page - 2 -->
+
+<!-- Profile Page & Edit Profile Page -->
+
+</body>
+
 </html>
